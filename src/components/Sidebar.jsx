@@ -39,7 +39,7 @@ function Sidebar() {
             </li>
             <li>
               <NavLink
-                to="/skills-artifacts"
+                to="/skills"
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " nav-link-active" : "")
                 }
@@ -49,7 +49,7 @@ function Sidebar() {
             </li>
             <li>
               <NavLink
-                to="/reflection-essay"
+                to="/reflection"
                 className={({ isActive }) =>
                   "nav-link" + (isActive ? " nav-link-active" : "")
                 }
