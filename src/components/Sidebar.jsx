@@ -84,14 +84,14 @@ function Sidebar() {
           <div className="sidebar-heading">Stay Connected</div>
           <ul className="sidebar-nav">
             <li>
-              <a className="nav-link" href="mailto:your.email@example.com">
+              <a className="nav-link" href="mailto:nmilanovic1992@gmail.com">
                 📧 Email
               </a>
             </li>
             <li>
               <a
                 className="nav-link"
-                href="https://www.linkedin.com/in/your-profile"
+                href="https://www.linkedin.com/in/nemtech"
                 target="_blank"
                 rel="noreferrer"
               >
