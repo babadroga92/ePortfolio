@@ -12,13 +12,7 @@ function Coursework() {
       <section className="content-section coursework-section">
         <h2>Job Advertisement Analysis</h2>
         <p>
-          This assignment involved selecting a job advertisement in a field that
-          matches my skillset and analyzing it to understand the company, the
-          role&apos;s purpose, and its key responsibilities. I examined the
-          specific skills and qualifications listed in the ad, interpreted
-          implied expectations, and connected these requirements to the
-          knowledge and experience I have gained through my coursework and
-          professional background.
+          This assignment required analyzing a job advertisement in my field to identify key responsibilities, required skills, and how they connect to my academic and professional experience.
         </p>
 
         <div className="course-doc">
