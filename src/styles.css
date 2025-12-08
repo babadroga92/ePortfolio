@@ -351,6 +351,37 @@ a:hover {
   }
 }
 
+/* ===== Course Work layout ===== */
+
+.coursework-section {
+  margin-top: 2.5rem;
+}
+
+.coursework-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.coursework-section p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+/* wrapper for the document viewer */
+.course-doc {
+  margin-top: 0.5rem;
+}
+
+/* big, readable PDF frame */
+.course-doc-frame {
+  width: 100%;
+  max-width: 900px;         /* keeps it from getting TOO wide on huge screens */
+  height: 600px;
+  border: none;
+  border-radius: 8px;
+  background: #f7f1e8;      /* “paper” background behind pdf viewer */
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+}
+
 /* Responsive */
 
 @media (max-width: 800px) {
