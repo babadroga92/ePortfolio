@@ -1,3 +1,4 @@
+// src/pages/Coursework.jsx
 import React from "react";
 
 function Coursework() {
@@ -5,31 +6,69 @@ function Coursework() {
     <div className="content">
       <header className="content-header">
         <h1>Course Work</h1>
-        <p className="lead">
-          All major papers from this class are collected here, including the job
-          advertisement paper and other assignments required for the final
-          e-portfolio. -- Work in Progress
-        </p>
       </header>
 
-      <section className="content-section">
-        <h2>Job Advertisement Analysis</h2>
-        <p>
-          Placeholder for the full text of your job ad paper.
-        </p>
+      {/* 1. Job Advertisement Analysis */}
+      <section className="content-section coursework-section">
+        <div className="course-layout">
+          <div className="course-text">
+            <h2>Job Advertisement Analysis</h2>
+            <p>
+              This assignment involved selecting a job advertisement in a field
+              that matches my skillset and analyzing it to understand the
+              company, the role&apos;s purpose, and its key responsibilities. I
+              examined the specific skills and qualifications listed in the ad,
+              interpreted implied expectations, and connected these requirements
+              to the knowledge and experience I have gained through my
+              coursework and professional background.
+            </p>
+            <p className="course-meta">
+              <strong>Course:</strong> IDS 493 – e-Portfolio Process
+              <br />
+              <strong>Artifact Type:</strong> Analytical essay
+            </p>
+          </div>
+
+          <div className="course-doc">
+            <iframe
+              title="Job Advertisement Analysis"
+              src="/artifacts/Job_Analysis.pdf"
+              className="course-doc-frame"
+            />
+          </div>
+        </div>
       </section>
 
-      <section className="content-section">
-        <h2>Paper 2 Title</h2>
-        <p>Placeholder text for course paper.</p>
-      </section>
+      {/* 2. Personal Narrative Essay */}
+      <section className="content-section coursework-section">
+        <div className="course-layout">
+          <div className="course-text">
+            <h2>Personal Narrative Essay</h2>
+            <p>
+              This narrative traces my path through cybersecurity, software
+              development, and privacy engineering. I reflect on key moments,
+              courses, and experiences that shaped my interests and explain how
+              they led me toward my current goals in privacy and security.
+            </p>
+            <p className="course-meta">
+              <strong>Course:</strong> IDS 493 – e-Portfolio Process
+              <br />
+              <strong>Artifact Type:</strong> Personal narrative essay
+            </p>
+          </div>
 
-      <section className="content-section">
-        <h2>Paper 3 Title</h2>
-        <p>Placeholder text for course paper.</p>
+          <div className="course-doc">
+            <iframe
+              title="Personal Narrative Essay"
+              src="/artifacts/Tracing My Path Through Cybersecurity, Software Development, and Privacy Engineering.pdf"
+              className="course-doc-frame"
+            />
+          </div>
+        </div>
       </section>
     </div>
   );
 }
 
 export default Coursework;
+
