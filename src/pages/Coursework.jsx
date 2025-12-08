@@ -43,7 +43,7 @@ function Coursework() {
         <div className="course-doc">
           <iframe
             title="Personal Narrative Essay"
-            src="/artifacts/Tracing My Path Through Cybersecurity, Software Development, and Privacy Engineering.pdf"
+            src="/artifacts/Tracing_My_Path.pdf"
             className="course-doc-frame"
           />
         </div>
