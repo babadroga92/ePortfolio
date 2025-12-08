@@ -14,6 +14,8 @@ function Sidebar() {
             <span className="brand-name">nemus.dev</span>
           </div>
 
+          <div className="decor-divider"></div>
+
           <div className="sidebar-about">
             <h2 className="sidebar-about-heading">About Me</h2>
             <p className="site-tagline">
@@ -22,6 +24,8 @@ function Sidebar() {
             </p>
           </div>
         </header>
+
+        <div className="decor-divider"></div>
 
         <section className="sidebar-section">
           <div className="sidebar-heading">Navigation</div>
@@ -79,6 +83,8 @@ function Sidebar() {
             </li>
           </ul>
         </section>
+
+        <div className="decor-divider"></div>
 
         <section className="sidebar-section">
           <div className="sidebar-heading">Stay Connected</div>
