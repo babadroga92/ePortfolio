@@ -2,61 +2,68 @@ import React from "react";
 
 function Reflection() {
   return (
-    <div className="content">
+    <div className="content reflection-page">
       <header className="content-header">
         <h1>Reflection Essay</h1>
         <p className="lead">
-          A 1,600-word reflection on my skills, artifacts, degree outcomes, and
-          career readiness. This is where we&apos;ll integrate research,
-          coursework, and interdisciplinary theory.
+          A reflective analysis of my interdisciplinary learning, skills, and
+          artifacts, and how they prepare me for a career in privacy and security.
         </p>
       </header>
 
+      {/* ABSTRACT */}
       <section className="content-section">
         <h2>Abstract</h2>
         <p>
-          Placeholder for your abstract. Later you&apos;ll summarize the
-          reflection in about 150–250 words.
+          Work in Progress
         </p>
       </section>
 
+      {/* INTRODUCTION */}
       <section className="content-section">
         <h2>Introduction</h2>
-        <p>Intro paragraph(s) will go here.</p>
-      </section>
-
-      <section className="content-section">
-        <h2>Skill 1 &amp; Artifacts</h2>
         <p>
-          Reflection on how Skill 1 and its artifacts demonstrate your learning
-          and connect to interdisciplinary methods and job requirements.
+          Work in Progress
         </p>
       </section>
 
+      {/* SKILL 1 REFLECTION */}
       <section className="content-section">
-        <h2>Skill 2 &amp; Artifacts</h2>
-        <p>Placeholder text for Skill 2 reflection.</p>
+        <h2>Technical Skillset Reflection</h2>
+        <p>
+          Work in Progress
+        </p>
       </section>
 
+      {/* SKILL 2 REFLECTION */}
       <section className="content-section">
-        <h2>Skill 3 &amp; Artifacts</h2>
-        <p>Placeholder text for Skill 3 reflection.</p>
+        <h2>Technical Writing Reflection</h2>
+        <p>
+          Work in Progress
+        </p>
       </section>
 
+      {/* SKILL 3 REFLECTION */}
       <section className="content-section">
-        <h2>Degree Outcomes &amp; Career Readiness</h2>
-        <p>Placeholder for discussion of degree learning outcomes.</p>
+        <h2>Privacy & Compliance Engineering Reflection</h2>
+        <p>
+          Work in Progress
+        </p>
       </section>
 
+      {/* DEGREE OUTCOMES REFLECTION */}
+      <section className="content-section">
+        <h2>Interdisciplinary Degree Outcomes</h2>
+        <p>
+          Work in Progress
+        </p>
+      </section>
+
+      {/* CONCLUSION */}
       <section className="content-section">
         <h2>Conclusion</h2>
-        <p>Final thoughts placeholder.</p>
-      </section>
-
-      <section className="content-section">
-        <h2>References</h2>
         <p>
-          APA style reference list.
+          Work in Progress
         </p>
       </section>
     </div>
