@@ -335,6 +335,30 @@ a:hover {
   }
 }
 
+/* ===== Personal Narrative Styling ===== */
+
+.narrative-container {
+  max-width: 900px;
+  background: #151515;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 18px rgba(0,0,0,0.6);
+  height: 600px;
+  overflow-y: auto;
+}
+
+.narrative-container h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  text-transform: none;
+  font-size: 1.1rem;
+}
+
+.narrative-container ul {
+  margin-left: 1.25rem;
+}
+
 /* Ultra-wide screens refinements */
 @media (min-width: 1400px) {
   .content {
