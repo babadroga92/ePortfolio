@@ -18,6 +18,26 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Base size + spacing */
+.nav-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Keep LinkedIn in its normal brand colors */
+.nav-icon-linkedin {
+  filter: none;
+}
+
+/* Make GitHub icon light so it shows on dark bg */
+.nav-icon-github {
+  filter: invert(1) brightness(1.2);
+  opacity: 0.9;
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
