@@ -106,7 +106,7 @@ function Welcome() {
             <div className="timeline-content">
               <div className="timeline-header">
                 <h3 className="timeline-title">Software &amp; Systems Engineer</h3>
-                <span className="timeline-dates">July 2025 — Present</span>
+                <span className="timeline-dates">July 2025 — Dec 2025</span>
               </div>
 
               <p className="timeline-meta">Accent CPA</p>
