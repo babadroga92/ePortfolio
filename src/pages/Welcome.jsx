@@ -169,7 +169,7 @@ function Welcome() {
         </div>
 
         <div className="timeline-footer">
-          <a className="btn btn-primary" href="/Nemanja_Milanovic_Resume.pdf" download>
+          <a className="btn btn-primary" href="/Nemanja_Milanovic_CV.pdf" download>
             Download Resume (PDF)
           </a>
         </div>
@@ -378,7 +378,7 @@ function Welcome() {
             GitHub
           </a>
 
-          <a className="btn btn-secondary" href="/Nemanja_Milanovic_Resume.pdf" download>
+          <a className="btn btn-secondary" href="/Nemanja_Milanovic_CV.pdf" download>
             Download Resume
           </a>
         </div>
