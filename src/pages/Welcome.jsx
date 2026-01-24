@@ -88,10 +88,7 @@ function Welcome() {
               </p>
 
               <p className="timeline-desc">
-                Supporting privacy review activities within enterprise telematics systems,
-                including documentation analysis, data handling assessments, and collaboration
-                with engineering and compliance stakeholders. Scope and responsibilities will
-                expand as onboarding progresses.
+                Supporting privacy operations in enterprise telematics systems through privacy analysis and internal tooling, including data handling assessments, privacy enablement initiatives, and collaboration with engineering and compliance stakeholders.
               </p>
             </div>
           </div>
