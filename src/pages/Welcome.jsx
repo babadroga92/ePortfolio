@@ -22,10 +22,10 @@ function Welcome() {
             </div>
 
             <div className="hero-meta">
-              <span className="chip">GDPR / CCPA</span>
-              <span className="chip">Privacy Controls</span>
+              <span className="chip">Privacy Engineering</span>
+              <span className="chip">GDPR/CCPA</span>
+              <span className="chip">Privacy Risk</span>
               <span className="chip">Java / Spring Boot</span>
-              <span className="chip">Risk &amp; Audits</span>
             </div>
           </div>
 
@@ -265,8 +265,8 @@ function Welcome() {
           <div className="card">
             <h3>Privacy &amp; Compliance</h3>
             <div className="pill-row">
-              <span className="pill">GDPR / CCPA</span>
-              <span className="pill">Privacy Controls</span>
+              <span className="pill">Privacy Engineering</span>
+              <span className="pill">GDPR/CCPA</span>
               <span className="pill">Regulatory Translation</span>
               <span className="pill">PIAs / DPIAs</span>
               <span className="pill">Technical Evidence Review</span>
