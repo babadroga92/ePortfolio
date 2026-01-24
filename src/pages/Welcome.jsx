@@ -387,7 +387,7 @@ function Welcome() {
 
 
       <div className="page-footer">
-        <span className="muted">© {new Date().getFullYear()} nemus.dev</span>
+        <span className="muted">© {new Date().getFullYear()} nem.tech</span>
       </div>
     </div>
   );

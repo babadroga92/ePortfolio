@@ -80,7 +80,7 @@ function Sidebar() {
           <span className="brand-icon" aria-hidden="true">
             💾
           </span>
-          <span className="brand-name">nemus.dev</span>
+          <span className="brand-name">nem.tech</span>
         </div>
 
         <button
@@ -111,7 +111,7 @@ function Sidebar() {
               <span className="brand-icon" aria-hidden="true">
                 💾
               </span>
-              <span className="brand-name">nemus.dev</span>
+              <span className="brand-name">nem.tech</span>
             </div>
 
             <div className="decor-divider"></div>
