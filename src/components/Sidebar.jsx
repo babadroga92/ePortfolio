@@ -119,7 +119,7 @@ function Sidebar() {
             <div className="sidebar-about">
               <h2 className="sidebar-about-heading">About</h2>
               <p className="site-tagline">
-                Privacy &amp; Security Analyst focused on technical audits, privacy controls,
+                Privacy Engineer focused on technical audits, privacy controls,
                 and engineering-ready compliance.
               </p>
             </div>

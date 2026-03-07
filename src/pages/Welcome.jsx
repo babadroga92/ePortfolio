@@ -9,7 +9,7 @@ function Welcome() {
           <div className="hero-text">
             <h1>Nemanja Milanovic</h1>
             <p className="lead">
-              Privacy-focused analyst with a strong engineering background, experienced in building, reviewing, and assessing complex software systems.
+              Privacy engineer with a strong software engineering foundation, building AI-driven automation, privacy tooling, and compliance solutions for complex systems.
             </p>
 
             <div className="hero-cta">
@@ -23,9 +23,9 @@ function Welcome() {
 
             <div className="hero-meta">
               <span className="chip">Privacy Engineering</span>
-              <span className="chip">GDPR/CCPA</span>
-              <span className="chip">Privacy Risk</span>
-              <span className="chip">Java / Spring Boot</span>
+              <span className="chip">AI Automation</span>
+              <span className="chip">RAG Systems</span>
+              <span className="chip">Python / Java</span>
             </div>
           </div>
 
@@ -41,26 +41,25 @@ function Welcome() {
       <section id="summary" className="page-section">
         <h2>Summary</h2>
         <p className="muted">
-          I work at the intersection of privacy, security, and software engineering,
-          supporting the assessment and implementation of privacy controls in complex,
-          data-driven systems. My experience spans technical audits, system-level risk
-          analysis, and hands-on engineering work across regulated environments.
+          I work at the intersection of privacy, engineering, and AI automation,
+          building systems that reduce manual compliance effort and help translate
+          privacy requirements into scalable technical solutions.
         </p>
 
         <p className="muted">
-          I’ve reviewed production code, data flows, access controls, and infrastructure
-          configurations as technical evidence for compliance, and have translated
-          regulatory requirements such as GDPR and CCPA into concrete, testable
-          engineering expectations. I’m comfortable working closely with engineers to
-          evaluate how systems actually behave—not just how they are documented.
+          My experience includes privacy engineering, technical audits, data flow
+          analysis, evidence-based compliance reviews, and hands-on software
+          development across regulated and data-sensitive environments. I have
+          worked closely with engineers, privacy teams, and compliance stakeholders
+          to evaluate system behavior, implement controls, and improve operational
+          efficiency.
         </p>
 
         <p className="muted">
-          In parallel with privacy analysis work, I’ve contributed to internal engineering
-          efforts, including building a RAG-based internal knowledge assistant and
-          supporting system automation in a regulated environment. This technical
-          foundation allows me to engage effectively across both engineering and privacy
-          functions.
+          In addition to privacy governance work, I have built internal RAG-based
+          AI assistants, workflow automation tools, and technical documentation to
+          support privacy operations, secure data access, and enterprise-scale
+          decision making.
         </p>
       </section>
 
@@ -79,20 +78,29 @@ function Welcome() {
 
             <div className="timeline-content">
               <div className="timeline-header">
-                <h3 className="timeline-title">Privacy Analyst Intern</h3>
+                <h3 className="timeline-title">Privacy Engineer Intern</h3>
                 <span className="timeline-dates">Jan 2026 — Present</span>
               </div>
 
-              <p className="timeline-meta">
-                Geotab · Degree-aligned internship focused on applied privacy analysis
+              <p className="timeline-meta">Geotab</p>
+
+              <p className="timeline-desc">
+                Lead development of AI-driven privacy automation tools in Python,
+                reducing manual effort in complex compliance workflows such as RFX
+                responses, Privacy Threshold Assessments (PTA), Privacy Risk
+                Assessments (PRA), sub-processor reviews, and country-readiness
+                evaluations.
               </p>
 
               <p className="timeline-desc">
-                Supporting privacy operations in enterprise telematics systems through privacy analysis and internal tooling, including data handling assessments, privacy enablement initiatives, and collaboration with engineering and compliance stakeholders.
+                Architect a modular parent-child skill framework that routes
+                requests to specialized tools through a unified enterprise
+                interface, while also contributing to Enterprise Data Retention
+                by translating policy requirements into SQL-based deletion logic
+                and maintainable technical documentation.
               </p>
             </div>
           </div>
-
 
           {/* Accent CPA */}
           <div className="timeline-item">
@@ -103,17 +111,23 @@ function Welcome() {
             <div className="timeline-content">
               <div className="timeline-header">
                 <h3 className="timeline-title">Software &amp; Systems Engineer</h3>
-                <span className="timeline-dates">July 2025 — Dec 2025</span>
+                <span className="timeline-dates">Jul 2025 — Dec 2025</span>
               </div>
 
               <p className="timeline-meta">Accent CPA</p>
 
               <p className="timeline-desc">
-                Built and owned internal systems in a small, data-sensitive environment, including an
-                internal RAG-based knowledge assistant used by staff to query client and firm-produced
-                documents (PDFs sourced from TaxDome) within the internal LAN. Developed and maintained
-                TaxDome workflow automations supporting daily operations, and built the firm’s
-                public-facing website from scratch using React.
+                Designed and built an internal RAG-based AI knowledge assistant
+                using Spring Boot, PostgreSQL (pgvector), React, and Ollama,
+                enabling staff to retrieve firm and client documents through
+                natural-language queries.
+              </p>
+
+              <p className="timeline-desc">
+                Built document ingestion pipelines for OneDrive and TaxDome,
+                processed 250+ GB of unstructured PDFs within a LAN-restricted
+                environment, automated internal workflows, and developed the
+                firm’s public-facing React website.
               </p>
             </div>
           </div>
@@ -133,10 +147,17 @@ function Welcome() {
               <p className="timeline-meta">TikTok (via Solvd Inc.)</p>
 
               <p className="timeline-desc">
-                Designed and maintained a technical privacy compliance framework covering 150+ product
-                features, translating regulatory requirements into engineering-ready privacy controls and
-                validating implementation through technical evidence reviews. Partnered with Incident
-                Response to assess and validate mitigations following privacy and security incidents.
+                Designed and built a privacy compliance framework for 150+ product
+                features, translating regulatory requirements into technical
+                controls and streamlining audit preparation through structured
+                evidence and engineering-ready standards.
+              </p>
+
+              <p className="timeline-desc">
+                Worked with engineering and Incident Response teams to validate
+                remediation effectiveness following security and privacy events,
+                improving audit readiness and privacy control coverage across the
+                SDLC.
               </p>
             </div>
           </div>
@@ -156,10 +177,15 @@ function Welcome() {
               <p className="timeline-meta">Meta (via Solvd Inc.)</p>
 
               <p className="timeline-desc">
-                Reviewed production source code, automated tests, database configurations, and access
-                controls as technical evidence for compliance requirements. Analyzed microservices and data
-                pipelines for privacy and security risk across the SDLC, and supported LLM reviews focused
-                on data risk, fairness considerations, and cleanup of legacy mitigations.
+                Reviewed code, automated tests, database tables, and access
+                controls as technical evidence for compliance commitments,
+                helping identify gaps early and improve audit readiness.
+              </p>
+
+              <p className="timeline-desc">
+                Supported Privacy Engineering reviews of microservices, data
+                flows, and LLM systems for privacy, security, and data-risk
+                exposure, enabling earlier mitigation across the SDLC.
               </p>
             </div>
           </div>
@@ -172,7 +198,6 @@ function Welcome() {
         </div>
       </section>
 
-
       <div className="decor-divider"></div>
 
       {/* PROJECTS */}
@@ -184,7 +209,9 @@ function Welcome() {
           <article className="project-card">
             <div className="project-top">
               <h3 className="project-title">Internal RAG Knowledge Assistant</h3>
-              <div className="project-meta">Spring Boot · PostgreSQL (pgvector) · React</div>
+              <div className="project-meta">
+                Spring Boot · PostgreSQL (pgvector) · React
+              </div>
             </div>
 
             <div className="project-media">
@@ -197,15 +224,15 @@ function Welcome() {
 
             <div className="project-body">
               <p className="project-desc">
-                Designed and built an internal retrieval-augmented generation (RAG) system to help
-                staff query client and firm-produced documents using natural language. The system
-                ingests PDFs sourced from TaxDome and returns contextual results based on vector
-                similarity search.
+                Designed and built an internal retrieval-augmented generation
+                (RAG) system to help staff query client and firm-produced
+                documents using natural language.
               </p>
 
               <p className="project-desc">
-                Implemented end-to-end, including backend services, embedding pipelines, and a
-                React interface. Deployed within the internal LAN environment; not publicly accessible.
+                Implemented backend services, embedding pipelines, vector search,
+                and a React interface for a LAN-restricted environment handling
+                250+ GB of unstructured PDFs.
               </p>
 
               <div className="project-actions">
@@ -231,13 +258,14 @@ function Welcome() {
 
             <div className="project-body">
               <p className="project-desc">
-                Built the firm’s public-facing website from scratch using React, translating a
-                designer-provided layout into a responsive, production-ready application.
+                Built the firm’s public-facing website from scratch using React,
+                translating a designer-provided layout into a responsive,
+                production-ready application.
               </p>
 
               <p className="project-desc">
-                Focused on clean presentation, usability, and consistent implementation of the design
-                system across pages and components.
+                Focused on clean presentation, usability, and consistent
+                implementation of the design system across pages and components.
               </p>
 
               <div className="project-actions">
@@ -261,27 +289,28 @@ function Welcome() {
         <h2>Skills</h2>
 
         <div className="grid">
-          {/* Privacy & Compliance */}
+          {/* Privacy Engineering */}
           <div className="card">
-            <h3>Privacy &amp; Compliance</h3>
+            <h3>Privacy Engineering &amp; Compliance</h3>
             <div className="pill-row">
               <span className="pill">Privacy Engineering</span>
-              <span className="pill">GDPR/CCPA</span>
-              <span className="pill">Regulatory Translation</span>
-              <span className="pill">PIAs / DPIAs</span>
-              <span className="pill">Technical Evidence Review</span>
+              <span className="pill">GDPR / CCPA</span>
+              <span className="pill">Technical Audits</span>
+              <span className="pill">Data Flow Analysis</span>
+              <span className="pill">Risk Mitigation</span>
+              <span className="pill">Access Control Review</span>
             </div>
           </div>
 
-          {/* Security & Risk */}
+          {/* AI & Automation */}
           <div className="card">
-            <h3>Security &amp; Risk Analysis</h3>
+            <h3>AI &amp; Automation</h3>
             <div className="pill-row">
-              <span className="pill">Data Flow Analysis</span>
-              <span className="pill">System Risk Assessment</span>
-              <span className="pill">Access Controls</span>
-              <span className="pill">Incident Response Support</span>
-              <span className="pill">Threat Awareness</span>
+              <span className="pill">Python</span>
+              <span className="pill">RAG Systems</span>
+              <span className="pill">LLM Integration</span>
+              <span className="pill">Workflow Automation</span>
+              <span className="pill">AI Skills Architecture</span>
             </div>
           </div>
 
@@ -291,12 +320,12 @@ function Welcome() {
             <div className="pill-row">
               <span className="pill">Java</span>
               <span className="pill">Spring Boot</span>
+              <span className="pill">TypeScript</span>
               <span className="pill">React</span>
-              <span className="pill">REST APIs</span>
+              <span className="pill">SQL</span>
               <span className="pill">PostgreSQL</span>
               <span className="pill">MySQL</span>
-              <span className="pill">Docker</span>
-              <span className="pill">Linux</span>
+              <span className="pill">REST APIs</span>
             </div>
           </div>
 
@@ -304,14 +333,15 @@ function Welcome() {
           <div className="card">
             <h3>Tooling &amp; Platforms</h3>
             <div className="pill-row">
-              <span className="pill">Git / GitHub</span>
-              <span className="pill">Jira</span>
+              <span className="pill">Docker</span>
+              <span className="pill">Linux</span>
               <span className="pill">CI/CD (Jenkins)</span>
+              <span className="pill">Git</span>
+              <span className="pill">GitLab</span>
+              <span className="pill">Maven</span>
               <span className="pill">Selenium WebDriver</span>
               <span className="pill">JUnit / TestNG</span>
-              <span className="pill">Wireshark</span>
-              <span className="pill">Burp Suite</span>
-              <span className="pill">Nmap</span>
+              <span className="pill">Jira</span>
             </div>
           </div>
         </div>
@@ -345,7 +375,7 @@ function Welcome() {
         <h2>Contact</h2>
 
         <p className="muted contact-copy">
-          Open to conversations around privacy, security, and engineering-focused roles.
+          Open to conversations around privacy engineering, AI automation, and security-focused software roles.
         </p>
 
         <p className="muted contact-subcopy">
@@ -379,9 +409,7 @@ function Welcome() {
             Download Resume
           </a>
         </div>
-
       </section>
-
 
       <div className="page-footer">
         <span className="muted">© {new Date().getFullYear()} nem.tech</span>
