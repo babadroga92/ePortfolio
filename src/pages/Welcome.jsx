@@ -85,19 +85,17 @@ function Welcome() {
               <p className="timeline-meta">Geotab</p>
 
               <p className="timeline-desc">
-                Lead development of AI-driven privacy automation tools in Python,
-                reducing manual effort in complex compliance workflows such as RFX
-                responses, Privacy Threshold Assessments (PTA), Privacy Risk
-                Assessments (PRA), sub-processor reviews, and country-readiness
-                evaluations.
+                Build privacy engineering and AI-driven governance solutions that automate enterprise compliance workflows,
+                improve visibility into regulated data usage, and support scalable privacy operations across distributed systems.
               </p>
 
               <p className="timeline-desc">
-                Architect a modular parent-child skill framework that routes
-                requests to specialized tools through a unified enterprise
-                interface, while also contributing to Enterprise Data Retention
-                by translating policy requirements into SQL-based deletion logic
-                and maintainable technical documentation.
+                Designed and developed a GDPR Article 30 (ROPA) discovery and classification platform using Java, Python, React, BigQuery, and GCP APIs
+                to identify PII-bearing assets across enterprise cloud environments and automate processing activity mapping through metadata analysis and AI-assisted classification.
+              </p>
+
+              <p className="timeline-desc">
+                Architected a modular parent-child skill framework that routes enterprise requests to specialized privacy automation tools through a unified interface, supporting workflows such as Privacy Threshold Assessments (PTA), Privacy Risk Assessments (PRA), sub-processor reviews, RFX responses, and country-readiness evaluations.
               </p>
             </div>
           </div>
