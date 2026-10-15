@@ -78,7 +78,7 @@ function Welcome() {
 
             <div className="timeline-content">
               <div className="timeline-header">
-                <h3 className="timeline-title">Privacy Engineer Intern</h3>
+                <h3 className="timeline-title">Privacy Analyst Intern</h3>
                 <span className="timeline-dates">Jan 2026 — Present</span>
               </div>
 
