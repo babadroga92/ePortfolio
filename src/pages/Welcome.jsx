@@ -85,17 +85,21 @@ function Welcome() {
               <p className="timeline-meta">Geotab</p>
 
               <p className="timeline-desc">
-                Build privacy engineering and AI-driven governance solutions that automate enterprise compliance workflows,
-                improve visibility into regulated data usage, and support scalable privacy operations across distributed systems.
+                Engineered a GDPR Article 30 (ROPA) platform that discovers
+                PII across enterprise GCP data stores and automates
+                processing activity classification.
               </p>
 
               <p className="timeline-desc">
-                Designed and developed a GDPR Article 30 (ROPA) discovery and classification platform using Java, Python, React, BigQuery, and GCP APIs
-                to identify PII-bearing assets across enterprise cloud environments and automate processing activity mapping through metadata analysis and AI-assisted classification.
+                Architected an AI-powered skill framework that automates
+                privacy assessments and compliance workflows, with
+                human oversight for final review.
               </p>
 
               <p className="timeline-desc">
-                Architected a modular parent-child skill framework that routes enterprise requests to specialized privacy automation tools through a unified interface, supporting workflows such as Privacy Threshold Assessments (PTA), Privacy Risk Assessments (PRA), sub-processor reviews, RFX responses, and country-readiness evaluations.
+                Developing EU AI Act discovery tooling to identify AI systems
+                and classify evidence, alongside data analytics and
+                early-detection pipelines for vehicle battery health.
               </p>
             </div>
           </div>
