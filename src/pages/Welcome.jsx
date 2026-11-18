@@ -78,7 +78,7 @@ function Welcome() {
 
             <div className="timeline-content">
               <div className="timeline-header">
-                <h3 className="timeline-title">Privacy Analyst Intern</h3>
+                <h3 className="timeline-title">Privacy Engineer</h3>
                 <span className="timeline-dates">Jan 2026 — Present</span>
               </div>
 
@@ -97,7 +97,7 @@ function Welcome() {
               </p>
 
               <p className="timeline-desc">
-                Developing EU AI Act discovery tooling to identify AI systems
+                Developed EU AI Act discovery tooling to identify AI systems
                 and classify evidence, alongside data analytics and
                 early-detection pipelines for vehicle battery health.
               </p>
